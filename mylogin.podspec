@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'mylogin'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of mylogin.'
+  s.summary          = 'this is my login module.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
