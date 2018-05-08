@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import mylogin
 
 class ViewController: UIViewController {
 
+    let loginService:LoginService = LoginService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print(loginService.login(username: "Arthi", password: "123456"))
     }
 
     override func didReceiveMemoryWarning() {

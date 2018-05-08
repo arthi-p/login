@@ -135,8 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				FEAE704F84B8554409D02BB8BB324D12 /* ReplaceMe.swift */,
-				EA8E9A78F73828356218758FBF232B7A /* Support Files */,
 				19BBD13C20A247F300C0DD86 /* LoginService.swift */,
+				EA8E9A78F73828356218758FBF232B7A /* Support Files */,
 			);
 			name = mylogin;
 			path = ../..;
