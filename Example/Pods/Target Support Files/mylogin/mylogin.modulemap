@@ -1,0 +1,6 @@
+framework module mylogin {
+  umbrella header "mylogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
