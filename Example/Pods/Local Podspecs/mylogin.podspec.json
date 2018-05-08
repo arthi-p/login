@@ -1,9 +1,9 @@
 {
   "name": "mylogin",
-  "version": "0.1.0",
-  "summary": "A short description of mylogin.",
+  "version": "1.2.0",
+  "summary": "this is my login module.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/parthi175@gmail.com/mylogin",
+  "homepage": "https://github.com/arthi-p/login.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "parthi175@gmail.com": "parthi175@gmail.com"
   },
   "source": {
-    "git": "https://github.com/parthi175@gmail.com/mylogin.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/arthi-p/login.git",
+    "tag": "1.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "mylogin/Classes/**/*"
+  "source_files": "mylogin/Classes/LoginService.swift"
 }

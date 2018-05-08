@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		14FB84129864B3FFCB5BC52C5B25509A /* Pods-mylogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E970AF350D6245326BA396F6DC89DBAB /* Pods-mylogin_Tests-dummy.m */; };
-		19BBD13D20A247F300C0DD86 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BBD13C20A247F300C0DD86 /* LoginService.swift */; };
 		1C0304D16FCBF57CAF510CD4A823EB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3A0600BCFCFF7B99E069B61AA0785EC3 /* mylogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C25E5B704BDA3E81A68EEF895B9416 /* mylogin-dummy.m */; };
-		54B5E66165D5FF9F5F681D123AD04098 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE704F84B8554409D02BB8BB324D12 /* ReplaceMe.swift */; };
+		28306137C39E73246EC4B5C42F84CF5E /* mylogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B024378FFD0ADBFDD19F31BD26267CE /* mylogin-dummy.m */; };
+		6CECCD91DA6E0623F08FDED185614F74 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916396E72D8DCBDB2BBF0E344DFE334B /* LoginService.swift */; };
 		799EF8C367280105E7E11239DDD89909 /* Pods-mylogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7672C87C4AF4471B80FAFCC1669BDE12 /* Pods-mylogin_Example-dummy.m */; };
 		8A4564046BB8EB674F523D160CF7860B /* Pods-mylogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E99F7D8511BE71910EAE768B0E05DA27 /* Pods-mylogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFE7358381090D43CC5AC3212CA35AB8 /* Pods-mylogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A18355B62CBA78467E7DE2C1EDEF619A /* Pods-mylogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1CD953FBA97E9804DFFBBE3B1EF1E44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E70B5C162EBDF8B49124D8C8F3E57F29 /* mylogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D149313628FB6966A4B74FD29DAFAB /* mylogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70B5C162EBDF8B49124D8C8F3E57F29 /* mylogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EFEDD29526823B168A66E834D0A801 /* mylogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFCE98C7775F9A59B0611668167FED38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,38 +31,37 @@
 
 /* Begin PBXFileReference section */
 		06D2249B3BCE1AD376F4C69D151F4CDB /* Pods-mylogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mylogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		19BBD13C20A247F300C0DD86 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = mylogin/Classes/LoginService.swift; sourceTree = "<group>"; };
 		1D986B33D63891B52595116C79CD2827 /* Pods-mylogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mylogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2602F2C33F474FBD51F7F818FF1459D6 /* Pods-mylogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mylogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2B654282ACE6CFD38CAB1C7C8C102AD1 /* Pods-mylogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mylogin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2D18A9C71E57AED7228F764503D3D799 /* Pods-mylogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mylogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2E0FF3749F6B12632778BD4271FAA297 /* Pods-mylogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mylogin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		38D149313628FB6966A4B74FD29DAFAB /* mylogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mylogin-umbrella.h"; sourceTree = "<group>"; };
 		47B2D7C952B9A79C08F60A33F0085DD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C76AF7D549ABC31FFD5EF9D3F8DC8A5 /* Pods-mylogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mylogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		55A9BFA32F3B35C5C8026A1231DF9594 /* mylogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mylogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A9BFA32F3B35C5C8026A1231DF9594 /* mylogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mylogin.framework; path = mylogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58487D09F5E3A41F1E42BD361B9F6A54 /* Pods-mylogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mylogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		59C68DA46DB6C485337A16ECDB74B87F /* Pods-mylogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mylogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		616C4A4B96D01383C24FE0DE1691BB01 /* mylogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = mylogin.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C1A7201E50A42A4625C29057503472C /* Pods-mylogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-mylogin_Tests.modulemap"; sourceTree = "<group>"; };
+		6C1A7201E50A42A4625C29057503472C /* Pods-mylogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-mylogin_Tests.modulemap"; sourceTree = "<group>"; };
 		755E355B482EDF0E84FBB6241F59095E /* Pods-mylogin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mylogin_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7672C87C4AF4471B80FAFCC1669BDE12 /* Pods-mylogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mylogin_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		916396E72D8DCBDB2BBF0E344DFE334B /* LoginService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = mylogin/Classes/LoginService.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B79B3E213D79EEAEC23254F4896E3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EFEDD29526823B168A66E834D0A801 /* mylogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mylogin-umbrella.h"; sourceTree = "<group>"; };
+		9B024378FFD0ADBFDD19F31BD26267CE /* mylogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mylogin-dummy.m"; sourceTree = "<group>"; };
 		A18355B62CBA78467E7DE2C1EDEF619A /* Pods-mylogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mylogin_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A8083D8E4FBDD0B58E58DD8A6A5137E5 /* Pods-mylogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-mylogin_Example.modulemap"; sourceTree = "<group>"; };
-		A8C6F221BE9D5446A5D6A7734226E4C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0F1BB5A98F454238BD6D32DE0A8C73E /* Pods_mylogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mylogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B755BEA8589521BFA61CF9ED2D6FEBE6 /* mylogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mylogin.xcconfig; sourceTree = "<group>"; };
+		A8083D8E4FBDD0B58E58DD8A6A5137E5 /* Pods-mylogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-mylogin_Example.modulemap"; sourceTree = "<group>"; };
+		B0F1BB5A98F454238BD6D32DE0A8C73E /* Pods_mylogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mylogin_Example.framework; path = "Pods-mylogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FDF6ED261FE486A7493130DFB79F3E /* mylogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mylogin.xcconfig; sourceTree = "<group>"; };
+		B6451B3F3468F5B7257526F82F6C74D5 /* mylogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mylogin-prefix.pch"; sourceTree = "<group>"; };
+		B7279AE49E972FE4661A46C57A1F18D6 /* mylogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = mylogin.modulemap; sourceTree = "<group>"; };
 		BB1F88C8BDC907D3F77F172D1228775B /* Pods-mylogin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mylogin_Example-resources.sh"; sourceTree = "<group>"; };
+		C131C816EDAD1DACD6DD0DBEEADF3D0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF3BCBF0708542B0743D867328E5408D /* Pods-mylogin_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mylogin_Tests-resources.sh"; sourceTree = "<group>"; };
-		D9C25E5B704BDA3E81A68EEF895B9416 /* mylogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mylogin-dummy.m"; sourceTree = "<group>"; };
-		E5622250552BE6397285E3144E66351C /* mylogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mylogin-prefix.pch"; sourceTree = "<group>"; };
 		E970AF350D6245326BA396F6DC89DBAB /* Pods-mylogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mylogin_Tests-dummy.m"; sourceTree = "<group>"; };
 		E99F7D8511BE71910EAE768B0E05DA27 /* Pods-mylogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mylogin_Example-umbrella.h"; sourceTree = "<group>"; };
-		F8942DF4B96FA8B882D2B9691C955F9A /* Pods_mylogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mylogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEAE704F84B8554409D02BB8BB324D12 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = mylogin/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F8942DF4B96FA8B882D2B9691C955F9A /* Pods_mylogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mylogin_Tests.framework; path = "Pods-mylogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,7 @@
 		089BC0D2AF7421C630D3762E50D5F362 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81A74411A8925B9EBD03DFA430003700 /* mylogin */,
+				837AA073BE4AA5ECCC2314B8D93671DC /* mylogin */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -131,17 +129,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		81A74411A8925B9EBD03DFA430003700 /* mylogin */ = {
-			isa = PBXGroup;
-			children = (
-				FEAE704F84B8554409D02BB8BB324D12 /* ReplaceMe.swift */,
-				19BBD13C20A247F300C0DD86 /* LoginService.swift */,
-				EA8E9A78F73828356218758FBF232B7A /* Support Files */,
-			);
-			name = mylogin;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		836703B46B25B1298CAB4ADEB66BA4F9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +136,16 @@
 				28AE022F7EDAA4E8ECDB18C9AFA90342 /* Pods-mylogin_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		837AA073BE4AA5ECCC2314B8D93671DC /* mylogin */ = {
+			isa = PBXGroup;
+			children = (
+				916396E72D8DCBDB2BBF0E344DFE334B /* LoginService.swift */,
+				C8D942107F72D4D4BAED4F35D10D3DDD /* Support Files */,
+			);
+			name = mylogin;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		87F4D2ABE9FBE25B7706DBDB8779A16C /* Pods-mylogin_Example */ = {
@@ -187,26 +184,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C8D942107F72D4D4BAED4F35D10D3DDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C131C816EDAD1DACD6DD0DBEEADF3D0C /* Info.plist */,
+				B7279AE49E972FE4661A46C57A1F18D6 /* mylogin.modulemap */,
+				B3FDF6ED261FE486A7493130DFB79F3E /* mylogin.xcconfig */,
+				9B024378FFD0ADBFDD19F31BD26267CE /* mylogin-dummy.m */,
+				B6451B3F3468F5B7257526F82F6C74D5 /* mylogin-prefix.pch */,
+				95EFEDD29526823B168A66E834D0A801 /* mylogin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/mylogin";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EA8E9A78F73828356218758FBF232B7A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A8C6F221BE9D5446A5D6A7734226E4C1 /* Info.plist */,
-				616C4A4B96D01383C24FE0DE1691BB01 /* mylogin.modulemap */,
-				B755BEA8589521BFA61CF9ED2D6FEBE6 /* mylogin.xcconfig */,
-				D9C25E5B704BDA3E81A68EEF895B9416 /* mylogin-dummy.m */,
-				E5622250552BE6397285E3144E66351C /* mylogin-prefix.pch */,
-				38D149313628FB6966A4B74FD29DAFAB /* mylogin-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/mylogin";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 192F03E88AD78BC893D31E98C8B8B799 /* Build configuration list for PBXNativeTarget "mylogin" */;
 			buildPhases = (
-				DC24C3CE5CDE37F084A419D2EFB3787E /* Sources */,
+				3B70AC57B6575C25F45CD78113B83AC4 /* Sources */,
 				190FF7466F2F6DCEBCB82C70682C0D79 /* Frameworks */,
 				1D943C637237470921483202C1E4C379 /* Headers */,
 			);
@@ -320,6 +317,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3B70AC57B6575C25F45CD78113B83AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CECCD91DA6E0623F08FDED185614F74 /* LoginService.swift in Sources */,
+				28306137C39E73246EC4B5C42F84CF5E /* mylogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A09D58D470658EFDB127AD6FD62EAD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,16 +339,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				799EF8C367280105E7E11239DDD89909 /* Pods-mylogin_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC24C3CE5CDE37F084A419D2EFB3787E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A0600BCFCFF7B99E069B61AA0785EC3 /* mylogin-dummy.m in Sources */,
-				19BBD13D20A247F300C0DD86 /* LoginService.swift in Sources */,
-				54B5E66165D5FF9F5F681D123AD04098 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +390,7 @@
 		};
 		28260DB44891CF0DB4EE67D2555A9BA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B755BEA8589521BFA61CF9ED2D6FEBE6 /* mylogin.xcconfig */;
+			baseConfigurationReference = B3FDF6ED261FE486A7493130DFB79F3E /* mylogin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -607,7 +603,7 @@
 		};
 		7528F620218340AEFBFA9175F9D81C78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B755BEA8589521BFA61CF9ED2D6FEBE6 /* mylogin.xcconfig */;
+			baseConfigurationReference = B3FDF6ED261FE486A7493130DFB79F3E /* mylogin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
